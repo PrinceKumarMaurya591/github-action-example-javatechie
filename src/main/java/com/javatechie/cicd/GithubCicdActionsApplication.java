@@ -16,6 +16,27 @@ public class GithubCicdActionsApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(GithubCicdActionsApplication.class, args);
+
+
+
+		    MultithreadingMyThread thread1 = new MultithreadingMyThread();
+			MultithreadingMyThread thread2 = new MultithreadingMyThread();
+	
+			thread1.start(); // Starts the thread
+			thread2.start();
+
+
+			Thread thread1r = new Thread(new MyRunnable());
+			Thread thread2r = new Thread(new MyRunnable());
+	
+			thread1r.start(); // Starts the thread
+			thread2r.start();
+
 	}
+
+	
+		
+			
+		
 
 }
