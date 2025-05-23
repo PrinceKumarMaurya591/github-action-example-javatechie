@@ -1,4 +1,4 @@
-package com.javatechie.cicd;
+package com.cicd;
 
 public class MultithreadingMyThread extends Thread{
     @Override
