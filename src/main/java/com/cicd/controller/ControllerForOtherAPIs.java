@@ -12,7 +12,7 @@ public class ControllerForOtherAPIs {
     // Example method (uncomment and modify as needed):
      @GetMapping("/example")
      public String exampleEndpoint() {
-         return "This is an example endpoint.";
+         return "This is an example endpoint returning string";
      }
 
 }
